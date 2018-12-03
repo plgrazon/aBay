@@ -1,0 +1,255 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.reviews {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 20px;
+  color: #404040;
+  position: relative;
+}
+
+.ratingsHeaderContainer {
+  width: 100%;
+  display: block;
+  justify-content: center;
+  border-bottom: 0.25px solid #b3b3b3;
+}
+
+.ratingsHeaderText {
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+  position: relative;
+  height: auto;
+}
+
+.writeBtn {
+  float: right;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+  height: auto;
+}
+
+.blackLine {
+  border-color: #b3b3b3;
+  border-width: 0.25px;
+  border-style: solid;
+}
+
+.ratingBarContainer {
+  width: 100%;
+  height: 150px; 
+  display: inline-block;
+  border-bottom: 1px solid #b3b3b3;
+  /* position: absolute; */
+}
+
+.contentWrap {
+  top: 0;
+  text-align: center;
+  float: left;
+  margin: 5px;
+  display: inline-block;
+  padding: 5px;
+  height:150px;
+  width: 200px;
+  position: relative;
+  
+}
+
+.averageStarRating {
+  font-size: 50px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+
+}
+
+.starRatingcss {
+  unicode-bidi: bidi-override;
+  color: #dddddd;
+  font-size: 25px;
+  height: 25px;
+  width: 125px;
+  margin: 0 auto;
+  right:0;
+  position: relative;
+  padding: 0;
+  display: block;
+}
+
+.starRatingcss .Top {
+  color: #e7711b;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  margin: auto;
+}
+
+.starRatingcss .Bottom {
+  padding: 0;
+  display: block;
+  z-index: 0;
+  position: absolute;
+}
+
+.productRatings {
+  margin: 10px;
+  padding: 5px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 12px;
+  color: #969697;
+
+}
+
+.reviewHistogram {
+  transform: scale(0.4, 0.4);
+  -ms-transform: scale(0.4, 0.4); /* IE 9 */
+  -webkit-transform: scale(0.4, 0.4); /* Safari and Chrome */
+  -o-transform: scale(0.4, 0.4); /* Opera */
+  -moz-transform: scale(0.4, 0.4); /* Firefox */
+  /* float: left; */
+  top: -30px;
+  height:350px;
+  position: absolute;
+  display: inline-block;
+  width: 110%;
+  left: 0;
+  vertical-align: bottom;
+}
+
+.reviewStar {
+  color: #969697;
+  /* position: fixed; */
+}
+
+.progressContainer{
+  width:500px;
+  height:1.5em;
+  position:relative;
+  background-color:#f1f1f1;
+  /* float: right; */
+  margin: 0;
+  left: 10%;
+  bottom: 27px;
+  border-radius:16px
+
+}
+
+.progressBar{
+  background-color:#999999;
+  height:100%;
+  position:absolute;
+  /* line-height:inherit; */
+  border-radius:16px
+
+}
+
+.number {
+  float: right;
+  top:0;
+}
+.roundBar{
+  border-radius:16px!important;
+}
+
+.pieContainer {
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  display: inline-block;
+  float: right;
+}
+
+.allReviews {
+  display: flex;
+  
+}
+
+.reviewsLeftSide {
+  float: left;
+  margin-left: 10px;
+  display: inline-block;
+  padding: 20px;
+  /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
+  font-size: 12px;
+  color: #969697;
+  line-height: 1.8;
+  margin-top: 10px;
+}
+
+.user {
+  color: #0000FF;
+}
+
+.reviewsRightSide {
+  /* margin-top: auto;
+  margin-bottom: auto; */
+  margin-left: 75px;
+  float: left;
+  display: inline-block;
+  padding: 20px;
+  line-height: 1.8;
+}
+
+.comment {
+  font-size: 13px;
+  color: #666666;
+}
+
+.otherFacts {
+  font-size: 11px;
+  color: #b3b3b3;
+
+}
+
+.facts {
+ color: #666666;
+
+}
+
+.line {
+  font-size: 15px;
+  bottom: 0px;
+}
+
+.orangeStar {
+  color: #e7711b;
+}
+
+.greyStar {
+  color: #dddddd;
+
+}
+
+.reviewsHeaderContainer {
+  width: 100%;
+}
+
+.relevantReviews {
+  padding: 10px;
+  margin: auto;
+  display: inline-block;
+  position: relative;
+  font-size: 18px;
+}
+
+.moreReviews {
+  padding: 10px;
+  margin: auto;
+  display: inline-block;
+  position: relative;
+  float: right;
+  font-size: 18px;
+}
+
+.glyphLikeBtn {
+ 
+}

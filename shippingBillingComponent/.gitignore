@@ -1,0 +1,4 @@
+node_modules
+credentials.json
+coverage
+ec2-key-pair.pem

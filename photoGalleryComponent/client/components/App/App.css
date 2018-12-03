@@ -1,0 +1,52 @@
+.gallery {
+  display: inline-flex;
+  width: 575px;
+}
+
+.profileImageContainer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.profileImage {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button {
+  color: #1276CA;
+  font-weight: bold;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  margin: auto;
+  text-decoration: none;
+  width: 8px;
+}
+
+.button#prev {
+  margin-right: 5px;
+}
+
+.button#next {
+  margin-left: 5px;
+}
+
+.button#prev[value="0"] {
+  color: #C5C5C5;
+}
+
+.button#next[value="0"] {
+  color: #C5C5C5;
+}
+
+.table {
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.tableRow {
+  text-align: center;
+  align-items: center;
+}

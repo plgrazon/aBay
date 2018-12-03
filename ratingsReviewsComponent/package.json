@@ -1,0 +1,73 @@
+{
+  "name": "fullstack_review",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "setup:db": "node db/schemas/index.js",
+    "build": "webpack -w",
+    "seed": "psql ratings hodempsey < db/sql/seed.sql",
+    "test": "jest",
+    "test_coverage": "jest --coverage",
+    "test_watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fake-market/HanaProxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fake-market/HanaProxy"
+  },
+  "homepage": "https://github.com/fake-market/HanaProxy#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "grunt": "^1.0.3",
+    "grunt-cli": "^1.2.0",
+    "jquery": "^3.3.1",
+    "jsdom": "^11.11.0",
+    "mysql2": "^1.5.3",
+    "nodemon": "^1.17.5",
+    "pg": "^7.4.3",
+    "progressbar.js": "^1.0.1",
+    "react": "^16.4.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.0",
+    "sequelize": "^4.37.10",
+    "underscore": "^1.9.1",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4"
+  },
+  "devDependencies": {
+    "compression-webpack-plugin": "^1.1.11",
+    "css-loader": "^0.28.11",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "grunt-aws": "^0.6.2",
+    "grunt-contrib-jshint": "^1.1.0",
+    "jest": "^23.1.0",
+    "jest-enzyme": "^6.0.1",
+    "style-loader": "^0.21.0"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "^.+\\.(css|scss)$": "identity-obj-proxy",
+      "verbose": true,
+      "collectCoverage": true
+    },
+    "setupTestFrameworkScriptFile": "./client/__tests__/setupTest.js",
+    "testEnvironment": "node"
+  }
+}

@@ -1,0 +1,8 @@
+node_modules
+# static/bundle.js
+assets/
+Gruntfile.js
+coverage/
+credentials.json
+randomPair.pem
+.DS_Store
